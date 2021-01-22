@@ -28,10 +28,12 @@ h3 {
 main {
     margin: auto;
     display: flex;
+    width: 700px;
 }
 article {
     background-color: #f4f4f4;
     border:3px solid #c79eaf;
+    
 
 }
 
