@@ -28,12 +28,9 @@ img {
     width: 1200px;
     height: 250px;
     display: grid;
-    fill: lightblue;
 }
 
-img:hover{
-    /* background-color: #91c1d8; */    
-    
+img:hover{ 
     filter: brightness(2);
 }
 
