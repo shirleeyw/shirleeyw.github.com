@@ -27,12 +27,15 @@ h3 {
 
 main {
     margin: auto;
-    display: flex;
+    /* display: flex; */
     width: 700px;
 }
 article {
+    padding-top:10px;
+    padding-bottom: 20px;
     background-color: #f4f4f4;
     border:3px solid #c79eaf;
+    margin-bottom: 30px;
 }
 
 p {
