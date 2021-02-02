@@ -92,7 +92,7 @@ input[type=submit]:hover {
 .corner {
     position: relative;
     font-size: 30px;
-    margin-left: 71%;
+    margin-left: 72%;
     padding-top: 88px;
     border: none;
     background-color: transparent;
@@ -117,7 +117,7 @@ input[type=submit]:hover {
     position: absolute;
     top: 75px;
     left: 350px;
-    padding: 20px;
+    padding: 30px;
     border-radius: 15px;
     padding-top: 50px;
     padding-bottom: 10px;
