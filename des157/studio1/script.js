@@ -22,7 +22,7 @@
         document.getElementById('overlay').className = 'show';
 
 
-        const myText = `For their first date, <strong>${name1}</strong> went to go pick up <strong>${name2}</strong> at her house. On the way there, he decided to pick up some <strong>${pluralnoun}</strong> to surprise her. She wore a cute outfit and was <strong>${verb}</strong> at the sight of the flowers. They drove to an amazing restaurant famous for their <strong>${food}</strong>. During the entire meal, Dave couldn’t keep his <strong>${bodypart}</strong> off of Paige. After a fun night, he was sad to have to bring her home. On the drive home, they were jamming out to <q><strong>${song}</strong>.</q> When they got to her house, she looked at him and said “Thanks for such a fun night!” Dave smiled and thought maybe <strong>${datingapp}</strong> isn’t so bad.`;
+        const myText = `For their first date, <strong>${name1}</strong> went to go pick up <strong>${name2}</strong> at her house. On the way there, he decided to pick up some <strong>${pluralnoun}</strong> to surprise her. She wore a cute outfit and was <strong>${verb}</strong> at the sight of the flowers. They drove to an amazing restaurant famous for their <strong>${food}</strong>. During the entire meal, <strong>${name1}</strong> couldn’t keep his <strong>${bodypart}</strong> off of <strong>${name2}</strong>. After a fun night, he was sad to have to bring her home. On the drive home, they were jamming out to <q><strong>${song}</strong>.</q> When they got to her house, she looked at him and said “Thanks for such a fun night!” <strong>${name1}</strong> smiled and thought maybe <strong>${datingapp}</strong> isn’t so bad.`;
         
     
         message.innerHTML = myText;
