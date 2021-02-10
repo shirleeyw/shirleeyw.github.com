@@ -2,14 +2,17 @@
     'use strict';
     console.log("reading js");
 
-    const journal = document.getElementById('journal');
-    const pen = document.getElementById('pen');
+    const journal = document.getElementById("journal");
+    const pen = document.getElementById("pen");
     
-    journal.addEventListener("click", function(event){
-        event.preventDefault();
+    journal.addEventListener("click", function(){
+        
 
-        journal.src = "studio2/images/inside.jpg";
-        pen.setAttribute("class", "show");
+        if(journal.src =="https://shirleeyw.github.io/des157/studio2/images/closed.png"){
+            journal.src = "https://shirleeyw.github.io/des157/studio2/images/open.JPG";
+            pen.setAttribute("class", "show");
+        }
+
     })
 
 })
