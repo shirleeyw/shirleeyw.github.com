@@ -4,6 +4,8 @@ body {
     max-width: 1200px;
     min-width: 800px;
     justify-content: center;
+    background-image: linear-gradient(45deg,#fbc1b5, #dfa3a6, #bfc9e0, #9da9b7);
+    background-size: 400%, 400%;
 }
 
 h1 {
@@ -38,6 +40,11 @@ article {
     margin-bottom: 30px;
 }
 
+figcaption {
+    padding-left: 25px;
+    padding-top: 10px;
+    font-size: 14px;
+}
 p {
     padding: 25px;
     padding-bottom: 5px;

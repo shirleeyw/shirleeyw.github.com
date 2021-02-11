@@ -2,24 +2,39 @@
     'use strict';
     console.log("reading js");
 
-    const myjournal = document.getElementById("journal");
+    const journal = document.getElementById("journal");
+    const brushpen = document.getElementById("brushpen");
     const pen = document.getElementById("pen");
+    const tape = document.getElementById("tape");
+    const flags = document.getElementById("pageflags");
+    const overlay = document.getElementById("overlay");
+    /* overlay.setAttribute("class", "hidden"); */
+
+    journal.addEventListener("click", function(event){
+        event.preventDefault();
+        document.getElementById('overlay').className = 'show';
+    });
     
-    myjournal.addEventListener("click", function(){
-        console.log(myjournal.src);
+    journal.addEventListener('click', function(event){
+        event.preventDefault();
+        document.getElementById('overlay').className = 'show';
+        const journalText = `journals are cool`;
 
-        if(myjournal.src =="https://shirleeyw.github.io/des157/studio2/images/closed.png"){
-            myjournal.src = "https://shirleeyw.github.io/des157/studio2/images/closedcopy-01.png";
-            pen.setAttribute("class", "show");
-            myjournal.style.cursor = "pointer";
-        }
-        else {
-            myjournal.src = "https://shirleeyw.github.io/des157/studio2/images/closed.png";
-            pen.setAttribute("class", "hide");
-        }
+        description.innerHTML = journalText;
 
-
+        overlay.innerHTML = `journals are cool`;
+        overlay.setAttribute("class", "show");
 
     });
 
+    brushpen.addEventListener("click", function(event){
+        event.preventDefault();
+        document.getElementById('overlay').className = 'show';
+        const brushpenText = `brushpen`;
+
+        description.innerHTML = brushpenText;
+
+        overlay.innerHTML = `brushpens are cool`;
+        overlay.setAttribute("class", "show");
+    });
 });
