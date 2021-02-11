@@ -7,25 +7,19 @@
     
     myjournal.addEventListener("click", function(event){
         event.preventDefault();
+        console.log(myjournal.src);
 
-        /* if(myjournal.src =="https://shirleeyw.github.io/des157/studio2/images/closed.png"){
+        if(myjournal.src =="https://shirleeyw.github.io/des157/studio2/images/closed.png"){
             myjournal.src = "https://shirleeyw.github.io/des157/studio2/images/open.JPG";
-            pen.setAttribute("class", "show");
-            myjournal.style.cursor = "pointer";
-            console.log(`pen appear`);
-    } */
-
-    function changeImage() {
-        if(document.getElementById('journal').src == "https://shirleeyw.github.io/des157/studio2/images/closed.png"){
-            document.getElementById('journal').src ="https://shirleeyw.github.io/des157/studio2/images/open.JPG";
             pen.setAttribute("class", "show");
             myjournal.style.cursor = "pointer";
         }
         else {
-            document.getElementById('journal').src = "https://shirleeyw.github.io/des157/studio2/images/closed.png";
-
+            myjournal.src = "https://shirleeyw.github.io/des157/studio2/images/closed.png";
+            pen.setAttribute("class", "hide");
         }
-    }
+
+
 
     });
 
