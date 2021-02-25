@@ -13,6 +13,33 @@ main {
     grid-template-rows: 0.5fr 0.5fr 0.5fr 0.2fr;
 }
 
+/* ---------pigs img + animation--------- */
+#pig1 {
+    width: 100px;
+    position: absolute;
+    left: 7%;
+    top: 110px;
+}
+
+#pig2 {
+    width: 100px;
+    position: absolute;
+    left: 85%;
+    top: 110px;
+}
+
+@keyframes shake {
+    30%, 100% {transform: rotate(0deg);}
+    50% {transform: rotate(-20deg);}
+    80% {transform: rotate(10deg);}
+  }
+  
+#pig1, #pig2 {
+    animation-name: shake;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
 button { 
     padding: 10px;
 }
