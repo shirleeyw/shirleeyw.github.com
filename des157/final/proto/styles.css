@@ -1,18 +1,28 @@
 body {
-    background-color: lightpink;
+    background-image: url(images/startbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
 }
 
-h1 {
-    text-align: center;
-    font-size: 45px;
-    color: black;
-}
 main {
     max-width: 1366px;
     max-height: 768px;
 }
 
+h1 {
+    text-align: center;
+    position: relative;
+    margin-top: 150px;
+    font-size: 35px;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+}
 footer {
     text-align: left;
     color: black;
@@ -36,14 +46,8 @@ footer a {
     overflow: hidden;
     text-align: center;
     float: right;
-	
-	/*stacking fieldsets above each other*/
 	position: relative;
 }
-/*Hide all except first fieldset*/
-/* #myform fieldset:not(:first-of-type) {
-	display: none;
-} */
 
 label {
     font-size: 16pt;
@@ -100,7 +104,8 @@ input[type=text]:focus {
     border-radius: 10px;
     width: 15%;
     padding: 6px 10px;
-    margin-left: 560px;
+    margin-left: 550px;
+    margin-top: 20px;
     outline: none;
     cursor: pointer;
 
