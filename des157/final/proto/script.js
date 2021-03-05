@@ -6,6 +6,7 @@
     const message = document.getElementById("message");
     const overlay = document.getElementById("overlay9");
 
+    //handles the next buttons
 
     document.querySelector('.start').addEventListener('click', function(event){
         event.preventDefault();
@@ -45,6 +46,43 @@
     document.querySelector('.next7').addEventListener('click', function(event){
         event.preventDefault();
         document.getElementById('overlay8').className = 'show';
+    });
+
+    //handles the back buttons
+
+    document.querySelector('.back1').addEventListener('click', function(event){
+        event.preventDefault();
+        document.getElementById('overlay2').className = 'hidden';
+    });
+
+    document.querySelector('.back2').addEventListener('click', function(event){
+        event.preventDefault();
+        document.getElementById('overlay3').className = 'hidden';
+    });
+
+    document.querySelector('.back3').addEventListener('click', function(event){
+        event.preventDefault();
+        document.getElementById('overlay4').className = 'hidden';
+    });
+    
+    document.querySelector('.back4').addEventListener('click', function(event){
+        event.preventDefault();
+        document.getElementById('overlay5').className = 'hidden';
+    });
+
+    document.querySelector('.back5').addEventListener('click', function(event){
+        event.preventDefault();
+        document.getElementById('overlay6').className = 'hidden';
+    });
+
+    document.querySelector('.back6').addEventListener('click', function(event){
+        event.preventDefault();
+        document.getElementById('overlay7').className = 'hidden';
+    });
+
+    document.querySelector('.back7').addEventListener('click', function(event){
+        event.preventDefault();
+        document.getElementById('overlay8').className = 'hidden';
     });
 
     

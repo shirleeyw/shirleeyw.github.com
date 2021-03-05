@@ -85,12 +85,27 @@ input[type=text]:focus {
 /* ---------next button styling------------- */
 .next1, .next2, .next3, .next4, .next5, .next6, .next7 {
     font-family: 'Poppins', sans-serif;
-    background-color: lavender;
+    background-color: #c5a6c8;
     border: none;
     border-radius: 10px;
     float: right;
     width: 25%;
     padding: 6px 10px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+}
+
+.back1, .back2, .back3, .back4, .back5, .back6, .back7 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    border-color: #e7d3e7;
+    border-style: solid;
+    color: #e7d3e7;
+    border-radius: 10px;
+    float: left;
+    width: 25%;
+    padding: 5px 10px;
     outline: none;
     cursor: pointer;
 }
@@ -121,23 +136,23 @@ input[type=submit]{
     float: right;
     width: 25%;
     padding: 6px 10px;
-    background-color: white;
+    background-color: #c5a6c8;
+    border: none;
     border-radius: 10px;
-    border-color: #e96f64;
-    border-style: solid;
-    border-width: 3px;
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;  
-    color: #e96f64;
+    /* font-weight: bold;   */
+    color: white;
     outline: none;
     cursor: pointer;
 
 }
-input[type=submit]:hover {
-    background-color: #e96f64;
-    border-color: transparent;
-    color: white;
-}
+/* input[type=submit]:hover {
+    background-color: white;
+    border-color: #c5a6c8;
+    border-style: solid;
+    border-width: 2px;
+    color: #c5a6c8;
+} */
 
 
 .show {
