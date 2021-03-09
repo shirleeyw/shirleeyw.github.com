@@ -257,7 +257,6 @@ input[type=submit]{
 
 
 #overlay1, #overlay2, #overlay3, #overlay4, #overlay5, #overlay6, #overlay7, #overlay8, #overlay9 {
-    background-color: pink;
     position: absolute;
     top: 0;
     left: 0;
