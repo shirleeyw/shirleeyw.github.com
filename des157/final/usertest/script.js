@@ -1,7 +1,7 @@
 (function(){
     'use strict';
     console.log("reading js");
-    alert('Hello! Please complete the following tasks: \n1. Go through and fill out the Mad Lib \n2. Interact with a couple of back buttons to change previous answers \n3. Submit Mad Lib')
+    alert('Hello! Please complete the following tasks: \n1. Go through and fill out the Mad Lib \n2. Interact with a couple of back buttons to change previous answers \n3. Submit Mad Lib \n Also, make sure your audio is on!')
 
     const myform = document.querySelector("#myform");
     const message = document.getElementById("message");
