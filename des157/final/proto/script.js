@@ -5,14 +5,6 @@
     const myform = document.querySelector("#myform");
     const message = document.getElementById("message");
     const overlay = document.getElementById("overlay9");
-    const nextBtnFirst = document.querySelector(".next1");
-    const nextBtnSec = document.querySelector(".next2");
-    const nextBtnThird = document.querySelector(".next3");
-    const nextBtnFourth = document.querySelector(".next4");
-    const nextBtnFifth = document.querySelector(".next5");
-    const nextBtnSixth = document.querySelector(".next6");
-    const nextBtnSeventh = document.querySelector(".next7");
-    const bullet = document.querySelectorAll(".step .bullet");
 
 
     let current = 1;
@@ -145,14 +137,6 @@
 
         
     });
-
-    /* document.getElementById("restart").addEventListener("click", function(event) {
-        event.preventDefault();
-
-        console.log("resetting now");
-        document.querySelector('#overlay1').className= "show";
-
-    }); */
 
 
         

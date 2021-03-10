@@ -48,7 +48,7 @@ footer a {
 }
 
 /* ---------progress bar---------- */
-.progress-bar {
+/* .progress-bar {
     display: flex;
     margin: 10px 0;
 }
@@ -116,7 +116,7 @@ display: none;
 .progress-bar .step p.active{
 color: #d43f8d;
 transition: 0.2s linear;
-}
+} */
 
 #myform fieldset {
 	background: white;

@@ -17,6 +17,8 @@
     const click = new Audio('media/click.mp3');
     const kiss = new Audio('media/kiss.mp3');
 
+    const words = [];
+
 
     let current = 1;
 
