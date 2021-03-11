@@ -12,7 +12,6 @@ main {
 
 h1 {
     text-align: center;
-    /* position: relative; */
     margin-top: 150px;
     font-size: 35px;
     color: black;
@@ -96,6 +95,7 @@ input[type=text]:focus {
 /* ---------next button styling------------- */
 .next1, .next2, .next3, .next4, .next5, .next6, .next7 {
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     background-color: #c5a6c8;
     border: none;
     border-radius: 10px;
@@ -109,6 +109,7 @@ input[type=text]:focus {
 
 .back1, .back2, .back3, .back4, .back5, .back6, .back7 {
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     background-color: white;
     border-color: #c5a6c8;
     border-style: solid;
@@ -158,10 +159,11 @@ input[type=submit]{
     border: none;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
-    /* font-weight: bold;   */
     color: white;
     outline: none;
     cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0.1em;
 
 }
 

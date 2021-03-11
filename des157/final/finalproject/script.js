@@ -154,14 +154,6 @@
         
     });
 
-    /* document.getElementById("restart").addEventListener("click", function(event) {
-        event.preventDefault();
-
-        console.log("resetting now");
-        document.querySelector('#overlay1').className= "show";
-
-    }); */
-
 
         
 }());
